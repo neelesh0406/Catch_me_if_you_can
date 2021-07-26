@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body #box {
+    position: absolute;
+    /* top: 10%; */
+    /* left: 0%; */
+    /* width: 50px; */
+    /* height: 60px; */
+    background:linear-gradient(45deg,red,yellow);
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s; 
+}
